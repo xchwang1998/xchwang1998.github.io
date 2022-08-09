@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "xiaochen"
+title                    : "Xiaochen Wang"
 description              : "This is the acedamic homepage of xiaochen."
 repository               : "xchwang1998/xchwang1998.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "xiaochen"
+  name             : "Xiaochen Wang"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Wuhan University"
   location         : "Wuhan, China"

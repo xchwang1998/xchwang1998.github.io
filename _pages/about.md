@@ -28,11 +28,11 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 
 # 📝 Publications 
 
-- **Xiaochen WANG**, Hongchao MA*, Liang ZHANG, Zhan CAI,Haichi MA. [Point Cloud Classification and Accuracy Analysis Based on Feature Fusion](http://jggs.sinomaps.com/EN/10.11947/j.JGGS.2021.0304),Journal of Geodesy and Geoinformation Science, 2021, 4(3): - . DOI: 10.11947/j.JGGS.2021.10. <a href="../docs/Point_Cloud_Classification_and_Accuracy_Analysis_Based_on_Feature_Fusion.pdf" alt="link">PDF🔗</a>
+- **Xiaochen WANG**, Hongchao MA*, Liang ZHANG, Zhan CAI,Haichi MA. [Point Cloud Classification and Accuracy Analysis Based on Feature Fusion](http://jggs.sinomaps.com/EN/10.11947/j.JGGS.2021.0304),Journal of Geodesy and Geoinformation Science, 2021, 4(3): - . DOI: 10.11947/j.JGGS.2021.10. [PDF🔗](../docs/Point_Cloud_Classification_and_Accuracy_Analysis_Based_on_Feature_Fusion.pdf)
 
-- **王晓晨**, 张良, 元佳林，蔡湛，马洪超*. 2020. 机载LiDAR波形特征提取及其在地物分类中的应用，第六届全国激光雷达大会，中国地质大学（北京）. <a href="../docs/6th_lidar_conference.pdf" alt="link">PDF🔗</a>
+- **王晓晨**, 张良, 元佳林，蔡湛，马洪超*. 2020. 机载LiDAR波形特征提取及其在地物分类中的应用，第六届全国激光雷达大会，中国地质大学（北京）. [PDF🔗](../docs/6th_lidar_conference.pdf)
 
-- Haiyun Yao, **Xiaochen Wang**, Hanwen Qi, Xinlian Liang. [Tightly Coupled Indoor Positioning Using Uwb/mmwave Radar/imu](https://www.proquest.com/openview/3df90c455b747569bc0c14a224a5f5d9/1?pq-origsite=gscholar&cbl=2037674), The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2022,05. <a href="../docs/Tightly_Coupled_Indoor_Positioning_Using_Uwb_mmwave Radar_imu.pdf.pdf" alt="link">PDF🔗</a>
+- Haiyun Yao, **Xiaochen Wang**, Hanwen Qi, Xinlian Liang. [Tightly Coupled Indoor Positioning Using Uwb/mmwave Radar/imu](https://www.proquest.com/openview/3df90c455b747569bc0c14a224a5f5d9/1?pq-origsite=gscholar&cbl=2037674), The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2022,05. [PDF🔗](../docs/Tightly_Coupled_Indoor_Positioning_Using_Uwb_mmwave_Radar_imu.pdf.pdf)
 
 # 🎖 Honors and Awards
 - *2018.05* Mathematical Contest in Modeling(MCM), Honorable Mention, 2018.
@@ -47,6 +47,7 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 - *2021.04*, Xioachen Wang was invited to share a lecture to the students of School of Resources Environment Science and Technology, [Hubei University of Science and Technology](https://www.hbust.edu.cn/)!. 
 
 ![](../images/Lecture1.jpg)
+
 ![](../images/Lecture2.jpg)
 
 
