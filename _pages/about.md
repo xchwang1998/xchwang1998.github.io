@@ -23,6 +23,7 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 
 
 # 🔥 News
+- *2023.09*: &nbsp;🎉🎉 One paper is accepted by **ISPRS GSW2023 (Geospatial Week), Cario, Eygpt** as Oral presentation.
 - *2022.09*: &nbsp;🎉🎉 Start to study in **State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing**. 
 - *2022.05*: &nbsp;🎉🎉 A paper was accepted by **The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences**. 
 
