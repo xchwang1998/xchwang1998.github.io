@@ -24,6 +24,7 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 
 # 🔥 News
 - *2023.09*: &nbsp;🎉🎉 One paper is accepted by **ISPRS GSW2023 (Geospatial Week), Cario, Eygpt** as Oral presentation.
+- *2023.07*: &nbsp;🎉🎉 One paper is accepted by **IEEE Internet of Things Journal (IOTJ)**.
 - *2022.09*: &nbsp;🎉🎉 Start to study in **State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing**. 
 - *2022.05*: &nbsp;🎉🎉 One paper was accepted by **The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences**. 
 
@@ -35,7 +36,13 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 
 - Haiyun Yao, **Xiaochen Wang**, Hanwen Qi, Xinlian Liang. [Tightly Coupled Indoor Positioning Using Uwb/mmwave Radar/imu](https://www.proquest.com/openview/3df90c455b747569bc0c14a224a5f5d9/1?pq-origsite=gscholar&cbl=2037674), The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2022,05. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/Tightly_Coupled_Indoor_Positioning_Using_Uwb_mmwave_Radar_imu.pdf)
 
+- **Xiaochen Wang**, Haiyun Yao, Yangyang Ma, and Xinlian Liang. [A Comparison Study of Low-Cost Personal Laser Scanning Systems for Forest Plot-Level Inventories](https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1809/2023/), The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2023, 48: 1809-1815. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/A Comparison Study of Low-Cost Personal Laser Scanning Systems for Forest Plot-Level Inventories.pdf)
+
+- Haiyun Yao, Xinlian Liang, Ruizhi Chen, **Xiaochen Wang**, Hanwen Qi, Liang Chen, and Yunsheng Wang. [A Benchmark of Absolute and Relative Positioning Solutions in GNSS Denied Environments](https://ieeexplore.ieee.org/abstract/document/10197620), IEEE Internet of Things Journal, , vol. 11, no. 3, pp. 4243-4273, 1 Feb.1, 2024.
+
+
 # 🎖 Honors and Awards
+- *2023.09* ISPRS GSW2023 (Geospatial Week), Best Presentation Award in the Smart Forests Workshop, 2023.
 - *2018.05* Mathematical Contest in Modeling(MCM), Honorable Mention, 2018.
 - *2018.10* 第五届全国高校大学生测绘技能大赛特等奖, 2018.
 
@@ -47,15 +54,11 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 # 💬 Invited Talks
 - *2021.04*, Xioachen Wang was invited to share a lecture to the students of School of Resources Environment Science and Technology, [Hubei University of Science and Technology](https://www.hbust.edu.cn/)!. 
 
-![](../images/Lecture1.jpg)
-
-![](../images/Lecture2.jpg)
-
 
 # 💻 Researches
 **My research interests include:**
-- Airborne lidar data post-processing
-- Landcover classification
 - 3D lidar SLAM
+- Place recognition
+- Airborne lidar data post-processing
 - Machine Learning
 
