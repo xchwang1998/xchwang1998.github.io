@@ -59,6 +59,7 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 **My research interests include:**
 - 3D lidar SLAM
 - Place recognition
+- Extrinsic calibration
 - Airborne lidar data post-processing
 - Machine Learning
 
