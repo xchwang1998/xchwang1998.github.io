@@ -23,23 +23,27 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 
 
 # 🔥 News
+- *2024.09*: &nbsp;🎉🎉 One paper is accepted by **IEEE TGRS**.
 - *2023.09*: &nbsp;🎉🎉 One paper is accepted by **ISPRS GSW2023 (Geospatial Week), Cario, Eygpt** as Oral presentation.
 - *2023.07*: &nbsp;🎉🎉 One paper is accepted by **IEEE Internet of Things Journal (IOTJ)**.
 - *2022.09*: &nbsp;🎉🎉 Start to study in **State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing**. 
 - *2022.05*: &nbsp;🎉🎉 One paper was accepted by **The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences**. 
 
 # 📝 Publications 
-- **Xiaochen WANG**, Liang, X., Campos, M., Zhang, J., Wang, Y., 2024. [Benchmarking of laser-based simultaneous localization and mapping methods in forest environments](https://ieeexplore.ieee.org/abstract/document/10623828). IEEE Transactions on Geoscience and Remote Sensing 62, 1–21. https://doi.org/10.1109/TGRS.2024.3439438
-- **Xiaochen WANG**, Hongchao MA*, Liang ZHANG, Zhan CAI,Haichi MA. [Point Cloud Classification and Accuracy Analysis Based on Feature Fusion](http://jggs.sinomaps.com/EN/10.11947/j.JGGS.2021.0304),Journal of Geodesy and Geoinformation Science, 2021, 4(3): - . DOI: 10.11947/j.JGGS.2021.10. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/Point_Cloud_Classification_and_Accuracy_Analysis_Based_on_Feature_Fusion.pdf)
+
+- **Wang, X.**, Liang, X., Campos, M., Zhang, J., Wang, Y., 2024. [Benchmarking of laser-based simultaneous localization and mapping methods in forest environments](https://ieeexplore.ieee.org/abstract/document/10623828). IEEE Transactions on Geoscience and Remote Sensing 62, 1–21. https://doi.org/10.1109/TGRS.2024.3439438
+
+- **Wang, X.**, Yao, H., Ma, Y., Liang, X., 2023. [A Comparison Study of Low-Cost Personal Laser Scanning Systems for Forest Plot-Level Inventories](https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1809/2023/). Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci. XLVIII-1/W2-2023, 1809–1815. https://doi.org/10.5194/isprs-archives-XLVIII-1-W2-2023-1809-2023 [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/A_Comparison_Study_of_Low-Cost_Personal_Laser_Scanning_Systems_for_Forest_Plot-Level_Inventories.pdf)
+
+
+- **Wang, X.**, Ma, Hongchao, Zhang, L., Cai, Z., Ma, Haichi, 2021. [Point Cloud Classification and Accuracy Analysis Based on Feature Fusion](http://jggs.sinomaps.com/EN/10.11947/j.JGGS.2021.0304). Journal of Geodesy and Geoinformation Science 4, 38–48.
+ [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/Point_Cloud_Classification_and_Accuracy_Analysis_Based_on_Feature_Fusion.pdf)
 
 - **王晓晨**, 张良, 元佳林，蔡湛，马洪超*. 2020. 机载LiDAR波形特征提取及其在地物分类中的应用，第六届全国激光雷达大会，中国地质大学（北京）. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/6th_lidar_conference.pdf)
 
-- Haiyun Yao, **Xiaochen Wang**, Hanwen Qi, Xinlian Liang. [Tightly Coupled Indoor Positioning Using Uwb/mmwave Radar/imu](https://www.proquest.com/openview/3df90c455b747569bc0c14a224a5f5d9/1?pq-origsite=gscholar&cbl=2037674), The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2022,05. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/Tightly_Coupled_Indoor_Positioning_Using_Uwb_mmwave_Radar_imu.pdf)
+- Yao, H., **Wang, X.**, Qi, H. and Liang, X., 2022. [Tightly Coupled Indoor Positioning Using Uwb/mmwave Radar/imu](https://www.proquest.com/openview/3df90c455b747569bc0c14a224a5f5d9/1?pq-origsite=gscholar&cbl=2037674). The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 46, pp.323-329. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/Tightly_Coupled_Indoor_Positioning_Using_Uwb_mmwave_Radar_imu.pdf)
 
-- **Xiaochen Wang**, Haiyun Yao, Yangyang Ma, and Xinlian Liang. [A Comparison Study of Low-Cost Personal Laser Scanning Systems for Forest Plot-Level Inventories](https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1809/2023/), The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2023, 48: 1809-1815. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/A_Comparison_Study_of_Low-Cost_Personal_Laser_Scanning_Systems_for_Forest_Plot-Level_Inventories.pdf)
-
-- Haiyun Yao, Xinlian Liang, Ruizhi Chen, **Xiaochen Wang**, Hanwen Qi, Liang Chen, and Yunsheng Wang. [A Benchmark of Absolute and Relative Positioning Solutions in GNSS Denied Environments](https://ieeexplore.ieee.org/abstract/document/10197620), IEEE Internet of Things Journal, , vol. 11, no. 3, pp. 4243-4273, 1 Feb.1, 2024.
-
+- **Yao, H.**, Liang, X., Chen, R., Wang, X., Qi, H., Chen, L. and Wang, Y., 2023. [A Benchmark of Absolute and Relative Positioning Solutions in GNSS Denied Environments](https://ieeexplore.ieee.org/abstract/document/10197620). IEEE Internet of Things Journal.
 
 # 🎖 Honors and Awards
 - *2023.09* ISPRS GSW2023 (Geospatial Week), Best Presentation Award in the Smart Forests Workshop, 2023.
