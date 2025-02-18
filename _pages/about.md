@@ -29,7 +29,7 @@ My research interest includes Airborne lidar data post-processing and 3D lidar S
 - *2022.05*: &nbsp;🎉🎉 One paper was accepted by **The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences**. 
 
 # 📝 Publications 
-
+- **Xiaochen WANG**, Liang, X., Campos, M., Zhang, J., Wang, Y., 2024. [Benchmarking of laser-based simultaneous localization and mapping methods in forest environments](https://ieeexplore.ieee.org/abstract/document/10623828). IEEE Transactions on Geoscience and Remote Sensing 62, 1–21. https://doi.org/10.1109/TGRS.2024.3439438
 - **Xiaochen WANG**, Hongchao MA*, Liang ZHANG, Zhan CAI,Haichi MA. [Point Cloud Classification and Accuracy Analysis Based on Feature Fusion](http://jggs.sinomaps.com/EN/10.11947/j.JGGS.2021.0304),Journal of Geodesy and Geoinformation Science, 2021, 4(3): - . DOI: 10.11947/j.JGGS.2021.10. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/Point_Cloud_Classification_and_Accuracy_Analysis_Based_on_Feature_Fusion.pdf)
 
 - **王晓晨**, 张良, 元佳林，蔡湛，马洪超*. 2020. 机载LiDAR波形特征提取及其在地物分类中的应用，第六届全国激光雷达大会，中国地质大学（北京）. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/6th_lidar_conference.pdf)
