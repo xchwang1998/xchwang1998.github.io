@@ -14,7 +14,7 @@ cv: ""
 intro: >-
   I am a Lecturer in the School of Remote Sensing Science and Technology at Aerospace
   Information Technology University (AITech), Jinan, China. I received my Ph.D. in
-  Photogrammetry and Remote Sensing from Wuhan University in December 2025.
+  Photogrammetry and Remote Sensing from Wuhan University in 2025.
   My research focuses on LiDAR-based simultaneous localization and mapping (SLAM),
   automated point cloud registration, and 3D forest monitoring, including individual
   tree segmentation and forest structure estimation.
@@ -95,7 +95,7 @@ talks:
     text: Invited lecture for students at the School of Resources Environment Science and Technology, Hubei University of Science and Technology.
 
 # 学术服务与技术社区贡献；可选 links 列表用于添加相关页面。
-# 社区数量为本人提供的概数，更新于 2026-09；不依赖第三方抓取。
+# CSDN 数据核对于公开主页，2026-09-23；博客访问量不含社区访问量。
 service:
   - category: Peer Review
     title: Computers and Electronics in Agriculture
@@ -106,20 +106,15 @@ service:
   - category: Peer Review
     title: ROBOT (机器人)
     text: Journal reviewer.
-  - category: Volunteering
-    title: UPINLBS 2022
-    text: Outstanding Volunteer, 7th International Conference on Ubiquitous Positioning, Indoor Navigation and Location Based Services.
   - category: Open Source
     title: Research Software on GitHub
-    text: Four open-source projects covering my doctoral research and the ICRA tree diameter estimation challenge.
+    text: Open-source code for my work is available on GitHub.
     links:
       - label: GitHub projects
         url: https://github.com/xchwang1998
-      - label: ICRA challenge code
-        url: https://github.com/xchwang1998/dbh_estimation
   - category: Technical Writing
     title: CSDN Blog
-    text: "130+ original technical articles, 550,000+ views, and 15,000+ followers."
+    text: "144 original technical articles, 603,613 blog views, and 16,128 followers (as of September 2026)."
     links:
       - label: CSDN blog
         url: https://blog.csdn.net/wxc_1998
