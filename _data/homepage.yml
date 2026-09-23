@@ -71,6 +71,19 @@ education:
     department: School of Resources and Civil Engineering
     location: Shenyang, China
 awards:
+  - date: "2025.10"
+    text: Outstanding Graduate Student, Wuhan University (优秀研究生).
+  - date: "2025.05"
+    text: "5th place worldwide, Tree Diameter Estimation Challenge, ICRA 2025 Workshop on Novel Approaches for Precision Agriculture and Forestry with Autonomous Robots."
+    links:
+      - label: Code
+        url: https://github.com/xchwang1998/dbh_estimation
+      - label: Results
+        url: https://www.codabench.org/competitions/7343/#/results-tab
+  - date: "2024.09"
+    text: Second-Class Graduate Academic Scholarship, Wuhan University (研究生二等学业奖学金).
+  - date: "2023.09"
+    text: "ISPRS Foundation Travel Grant Award, ISPRS Geospatial Week 2023 — USD 1,500, the highest grant amount awarded at the conference."
   - date: "2023.09"
     text: Best Presentation Award, Smart Forests Workshop, ISPRS Geospatial Week 2023.
   - date: "2018.10"
@@ -80,3 +93,33 @@ awards:
 talks:
   - date: "2021.04"
     text: Invited lecture for students at the School of Resources Environment Science and Technology, Hubei University of Science and Technology.
+
+# 学术服务与技术社区贡献；可选 links 列表用于添加相关页面。
+# 社区数量为本人提供的概数，更新于 2026-09；不依赖第三方抓取。
+service:
+  - category: Peer Review
+    title: Computers and Electronics in Agriculture
+    text: Journal reviewer.
+  - category: Peer Review
+    title: Science of Remote Sensing
+    text: Journal reviewer.
+  - category: Peer Review
+    title: ROBOT (机器人)
+    text: Journal reviewer.
+  - category: Volunteering
+    title: UPINLBS 2022
+    text: Outstanding Volunteer, 7th International Conference on Ubiquitous Positioning, Indoor Navigation and Location Based Services.
+  - category: Open Source
+    title: Research Software on GitHub
+    text: Four open-source projects covering my doctoral research and the ICRA tree diameter estimation challenge.
+    links:
+      - label: GitHub projects
+        url: https://github.com/xchwang1998
+      - label: ICRA challenge code
+        url: https://github.com/xchwang1998/dbh_estimation
+  - category: Technical Writing
+    title: CSDN Blog
+    text: "130+ original technical articles, 550,000+ views, and 15,000+ followers."
+    links:
+      - label: CSDN blog
+        url: https://blog.csdn.net/wxc_1998

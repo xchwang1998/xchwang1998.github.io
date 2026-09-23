@@ -36,7 +36,8 @@ end
 schemas = {
   "links" => %w[label url], "research" => %w[title description],
   "news" => %w[date text], "education" => %w[period institution department location],
-  "awards" => %w[date text], "talks" => %w[date text]
+  "awards" => %w[date text], "talks" => %w[date text],
+  "service" => %w[category title text]
 }
 schemas.each do |key, fields|
   items = profile.fetch(key, [])
@@ -44,6 +45,13 @@ schemas.each do |key, fields|
   items.each_with_index do |item, i|
     required(item, fields, "#{key}[#{i}]")
     link(item["url"], "#{key}[#{i}].url") if key == "links"
+    if item.key?("links")
+      raise "#{key}[#{i}].links: expected a list" unless item["links"].is_a?(Array)
+      item["links"].each do |entry|
+        required(entry, %w[label url], "#{key}[#{i}].links")
+        link(entry["url"], "#{key}[#{i}].links.url")
+      end
+    end
   end
 end
 papers = read_yaml("_data/publications.yml")

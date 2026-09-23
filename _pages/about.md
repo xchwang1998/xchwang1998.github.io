@@ -57,7 +57,7 @@ redirect_from:
 <section id="awards" class="section">
   <span id="-honors-and-awards" class="legacy-anchor" aria-hidden="true"></span>
   <div class="section-heading"><h2>Honors &amp; Awards</h2></div>
-  <ul class="dated-list">{% for item in profile.awards %}<li><span class="date">{{ item.date | escape }}</span><span>{{ item.text | escape }}</span></li>{% endfor %}</ul>
+  <ul class="dated-list">{% for item in profile.awards %}<li><span class="date">{{ item.date | escape }}</span><span>{{ item.text | escape }}{% if item.links.size > 0 %}<span class="entry-links">{% for link in item.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }} ↗</a>{% endfor %}</span>{% endif %}</span></li>{% endfor %}</ul>
 </section>
 {% endif %}
 {% if profile.talks.size > 0 %}
@@ -65,6 +65,12 @@ redirect_from:
   <span id="-invited-talks" class="legacy-anchor" aria-hidden="true"></span>
   <div class="section-heading"><h2>Invited Talks</h2></div>
   <ul class="dated-list">{% for item in profile.talks %}<li><span class="date">{{ item.date | escape }}</span><span>{{ item.text | escape }}</span></li>{% endfor %}</ul>
+</section>
+{% endif %}
+{% if profile.service.size > 0 %}
+<section id="service" class="section">
+  <div class="section-heading"><h2>Academic &amp; Community Service</h2></div>
+  <ul class="service-list">{% for item in profile.service %}<li><p class="service-category">{{ item.category | escape }}</p><h3>{{ item.title | escape }}</h3><p>{{ item.text | escape }}</p>{% if item.links.size > 0 %}<span class="entry-links">{% for link in item.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }} ↗</a>{% endfor %}</span>{% endif %}</li>{% endfor %}</ul>
 </section>
 {% endif %}
 <section id="contact" class="section contact"><h2>Contact</h2><p>For research correspondence, please contact me by email.</p><a href="mailto:{{ profile.email | escape }}">{{ profile.email | escape }} <span aria-hidden="true">↗</span></a>{% if profile.alternate_email and profile.alternate_email != '' %}<p class="alternate-contact">Additional email: <a href="mailto:{{ profile.alternate_email | escape }}">{{ profile.alternate_email | escape }}</a></p>{% endif %}</section>
