@@ -7,6 +7,7 @@
   year: 2026
   venue: "IEEE Transactions on Geoscience and Remote Sensing, 64, Article 4416120"
   url: https://doi.org/10.1109/TGRS.2026.3727340
+  code: https://github.com/xchwang1998/tree_semantic
 - title: "Automated TLS multi-scan registration in forest environments: A novel solution based on hash table"
   authors: "Xiaochen Wang, Xinlian Liang"
   year: 2026
