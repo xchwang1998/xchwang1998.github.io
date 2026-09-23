@@ -1,69 +1,70 @@
 ---
+layout: academic
 permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
+title: Academic Homepage
+redirect_from:
   - /about/
   - /about.html
 ---
-
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign profile = site.data.homepage %}
+<section id="about-me" class="intro section">
+  <p class="eyebrow">Photogrammetry &amp; Remote Sensing</p>
+  <h1>LiDAR SLAM &amp;<br><span>3D Remote Sensing.</span></h1>
+  <p class="lead">{{ profile.intro | escape }}</p>
+  {% if site.data.publications.size > 0 %}<a class="text-link" href="#publications">View publications <span aria-hidden="true">↓</span></a>{% endif %}
+</section>
+{% if profile.research.size > 0 %}
+<section id="research" class="section">
+  <span id="-researches" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="section-heading"><h2>Research Interests</h2><span class="section-number">01</span></div>
+  <div class="research-grid">{% for item in profile.research %}<article class="research-item"><h3>{{ item.title | escape }}</h3><p>{{ item.description | escape }}</p></article>{% endfor %}</div>
+</section>
 {% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
-Wang Xiaochen (王晓晨), phd student in photogrammetry and remote sensing, [Wuhan University](https://whu.edu.cn/), Wuhan, China.
-
-My research interest includes Airborne lidar data post-processing and 3D lidar SLAM. I have published 3 papers at the journal and international conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
-
-# 🔥 News
-- *2024.09*: &nbsp;🎉🎉 One paper is accepted by **IEEE TGRS**.
-- *2023.09*: &nbsp;🎉🎉 One paper is accepted by **ISPRS GSW2023 (Geospatial Week), Cario, Eygpt** as Oral presentation.
-- *2023.07*: &nbsp;🎉🎉 One paper is accepted by **IEEE Internet of Things Journal (IOTJ)**.
-- *2022.09*: &nbsp;🎉🎉 Start to study in **State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing**. 
-- *2022.05*: &nbsp;🎉🎉 One paper was accepted by **The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences**. 
-
-# 📝 Publications 
-
-- **Wang, X.**, Liang, X., Campos, M., Zhang, J., Wang, Y., 2024. [Benchmarking of laser-based simultaneous localization and mapping methods in forest environments](https://ieeexplore.ieee.org/abstract/document/10623828). IEEE Transactions on Geoscience and Remote Sensing 62, 1–21. https://doi.org/10.1109/TGRS.2024.3439438
-
-- **Wang, X.**, Yao, H., Ma, Y., Liang, X., 2023. [A Comparison Study of Low-Cost Personal Laser Scanning Systems for Forest Plot-Level Inventories](https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1809/2023/). Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci. XLVIII-1/W2-2023, 1809–1815. https://doi.org/10.5194/isprs-archives-XLVIII-1-W2-2023-1809-2023 [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/A_Comparison_Study_of_Low-Cost_Personal_Laser_Scanning_Systems_for_Forest_Plot-Level_Inventories.pdf)
-
-
-- **Wang, X.**, Ma, Hongchao, Zhang, L., Cai, Z., Ma, Haichi, 2021. [Point Cloud Classification and Accuracy Analysis Based on Feature Fusion](http://jggs.sinomaps.com/EN/10.11947/j.JGGS.2021.0304). Journal of Geodesy and Geoinformation Science 4, 38–48.
- [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/Point_Cloud_Classification_and_Accuracy_Analysis_Based_on_Feature_Fusion.pdf)
-
-- **王晓晨**, 张良, 元佳林，蔡湛，马洪超*. 2020. 机载LiDAR波形特征提取及其在地物分类中的应用，第六届全国激光雷达大会，中国地质大学（北京）. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/6th_lidar_conference.pdf)
-
-- Yao, H., **Wang, X.**, Qi, H. and Liang, X., 2022. [Tightly Coupled Indoor Positioning Using Uwb/mmwave Radar/imu](https://www.proquest.com/openview/3df90c455b747569bc0c14a224a5f5d9/1?pq-origsite=gscholar&cbl=2037674). The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 46, pp.323-329. [PDF](https://github.com/xchwang1998/xchwang1998.github.io/raw/main/docs/Tightly_Coupled_Indoor_Positioning_Using_Uwb_mmwave_Radar_imu.pdf)
-
-- **Yao, H.**, Liang, X., Chen, R., Wang, X., Qi, H., Chen, L. and Wang, Y., 2023. [A Benchmark of Absolute and Relative Positioning Solutions in GNSS Denied Environments](https://ieeexplore.ieee.org/abstract/document/10197620). IEEE Internet of Things Journal.
-
-# 🎖 Honors and Awards
-- *2023.09* ISPRS GSW2023 (Geospatial Week), Best Presentation Award in the Smart Forests Workshop, 2023.
-- *2018.05* Mathematical Contest in Modeling(MCM), Honorable Mention, 2018.
-- *2018.10* 第五届全国高校大学生测绘技能大赛特等奖, 2018.
-
-# 📖 Educations
-- *2022.09 - present*, [State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing](http://www.lmars.whu.edu.cn/), [Wuhan University](https://whu.edu.cn/), Wuhan, China.
-- *2019.09 - 2022.06*, School of Remote Sensing and Information Engineering,[Wuhan University](https://whu.edu.cn/), Wuhan, China. 
-- *2015.09 - 2019.06*, School of Resources and Civil Engineering, [Northeastern University](http://www.neu.edu.cn/), Shenyang, China. 
-
-# 💬 Invited Talks
-- *2021.04*, Xioachen Wang was invited to share a lecture to the students of School of Resources Environment Science and Technology, [Hubei University of Science and Technology](https://www.hbust.edu.cn/)!. 
-
-
-# 💻 Researches
-**My research interests include:**
-- 3D lidar SLAM
-- Place recognition
-- Extrinsic calibration
-- Airborne lidar data post-processing
-- Machine Learning
-
+{% if profile.news.size > 0 %}
+<section id="news" class="section">
+  <span id="-news" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="section-heading"><h2>News</h2></div>
+  <ul class="dated-list">{% for item in profile.news limit:3 %}<li><span class="date">{{ item.date | escape }}</span><span>{{ item.text | escape }}</span></li>{% endfor %}</ul>
+  {% if profile.news.size > 3 %}<details><summary>Earlier news</summary><ul class="dated-list">{% for item in profile.news offset:3 %}<li><span class="date">{{ item.date | escape }}</span><span>{{ item.text | escape }}</span></li>{% endfor %}</ul></details>{% endif %}
+</section>
+{% endif %}
+{% if site.data.publications.size > 0 %}
+<section id="publications" class="section">
+  <span id="-publications" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="section-heading"><h2>Publications</h2><span class="section-number">02</span></div>
+  <div class="publication-search" hidden><label for="publication-query">Find a publication</label><input id="publication-query" type="search" placeholder="Search title, author, venue or year" aria-controls="publication-list"><p id="publication-status" class="muted" role="status" aria-live="polite"></p></div>
+  {% assign publications = site.data.publications | sort: 'year' | reverse %}
+  <ol id="publication-list" class="publications">
+    {% for pub in publications %}
+    <li class="publication">
+      <span class="publication-year">{{ pub.year }}</span>
+      <div><h3>{% if pub.url and pub.url != '' %}<a href="{{ pub.url | escape }}">{{ pub.title | escape }}</a>{% else %}{{ pub.title | escape }}{% endif %}</h3>
+      <p class="authors">{{ pub.authors | escape }}</p><p class="venue">{{ pub.venue | escape }}</p>
+      <div class="paper-links">{% if pub.url and pub.url != '' %}<a href="{{ pub.url | escape }}" aria-label="Publisher page for {{ pub.title | escape }}">Publisher ↗</a>{% endif %}{% if pub.pdf and pub.pdf != '' %}<a href="{{ pub.pdf | relative_url }}" aria-label="PDF of {{ pub.title | escape }}">PDF ↗</a>{% endif %}{% if pub.code and pub.code != '' %}<a href="{{ pub.code | escape }}">Code ↗</a>{% endif %}{% if pub.data and pub.data != '' %}<a href="{{ pub.data | escape }}">Data ↗</a>{% endif %}</div></div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+{% if profile.education.size > 0 %}
+<section id="education" class="section">
+  <span id="-educations" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="section-heading"><h2>Education</h2><span class="section-number">03</span></div>
+  <ul class="education-list">{% for item in profile.education %}<li><p class="date">{{ item.period | escape }}</p><div><h3>{{ item.institution | escape }}</h3><p>{{ item.department | escape }}</p><p class="muted">{{ item.location | escape }}</p></div></li>{% endfor %}</ul>
+</section>
+{% endif %}
+{% if profile.awards.size > 0 %}
+<section id="awards" class="section">
+  <span id="-honors-and-awards" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="section-heading"><h2>Honors &amp; Awards</h2></div>
+  <ul class="dated-list">{% for item in profile.awards %}<li><span class="date">{{ item.date | escape }}</span><span>{{ item.text | escape }}</span></li>{% endfor %}</ul>
+</section>
+{% endif %}
+{% if profile.talks.size > 0 %}
+<section id="talks" class="section">
+  <span id="-invited-talks" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="section-heading"><h2>Invited Talks</h2></div>
+  <ul class="dated-list">{% for item in profile.talks %}<li><span class="date">{{ item.date | escape }}</span><span>{{ item.text | escape }}</span></li>{% endfor %}</ul>
+</section>
+{% endif %}
+<section id="contact" class="section contact"><h2>Contact</h2><p>For research correspondence, please contact me by email.</p><a href="mailto:{{ profile.email | escape }}">{{ profile.email | escape }} <span aria-hidden="true">↗</span></a></section>

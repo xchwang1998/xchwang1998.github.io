@@ -6,10 +6,12 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+url: "https://xchwang1998.github.io"
+baseurl: ""
 title                    : "Xiaochen Wang"
-description              : "This is the acedamic homepage of xiaochen."
+description              : "Academic homepage of Xiaochen Wang, Wuhan University. Research in LiDAR SLAM, remote sensing, and point cloud analysis."
 repository               : "xchwang1998/xchwang1998.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -27,7 +29,7 @@ author:
   location         : "Wuhan, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=SCHOLAR_ID&user=SZF8-JIAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=SZF8-JIAAAAJ"
   email            : "xchwang@whu.edu.cn"
   researchgate     : "https://www.researchgate.net/profile/Xiaochen_Wang18"
   uri              :
@@ -45,7 +47,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0001-9467-6797"
+  orcid            : "https://orcid.org/0000-0001-9467-6797"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -65,7 +67,12 @@ include:
   - _pages
   - files
 exclude:
-  - docs
+  - docs/screenshot.png
+  - docs/README-zh.md
+  - docs/MAINTENANCE.md
+  - scripts
+  - redketchup
+  - redketchup.zip
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"

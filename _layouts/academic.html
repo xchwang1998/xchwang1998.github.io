@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.data.homepage.name | escape }} | Academic Homepage</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.data.homepage.name | escape }} | Academic Homepage">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% assign profile = site.data.homepage %}
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}">{{ profile.name | escape }}<span>Academic Homepage</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about-me">About</a>
+        {% if profile.research.size > 0 %}<a href="#research">Research</a>{% endif %}
+        {% if site.data.publications.size > 0 %}<a href="#publications">Publications</a>{% endif %}
+        {% if profile.education.size > 0 %}<a href="#education">Education</a>{% endif %}
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="site-grid">
+    <aside class="profile" aria-label="Researcher profile">
+      {% if profile.photo and profile.photo != '' %}<img class="portrait" src="{{ profile.photo | relative_url }}" alt="{{ profile.name | escape }}" width="176" height="176">{% endif %}
+      <p class="profile-name">{{ profile.name | escape }} <span lang="zh">{{ profile.name_zh | escape }}</span></p>
+      <p class="role">{{ profile.role | escape }}</p>
+      <p><a href="{{ profile.affiliation_url | escape }}">{{ profile.affiliation | escape }}</a><br><span class="muted">{{ profile.location | escape }}</span></p>
+      <a class="email" href="mailto:{{ profile.email | escape }}">{{ profile.email | escape }}</a>
+      <ul class="profile-links">
+        {% for link in profile.links %}<li><a href="{{ link.url | escape }}">{{ link.label | escape }} <span aria-hidden="true">↗</span></a></li>{% endfor %}
+      </ul>
+      {% if profile.cv and profile.cv != '' %}<a class="button" href="{{ profile.cv | relative_url }}">Download CV</a>{% endif %}
+    </aside>
+    <main id="main" tabindex="-1">{{ content }}</main>
+  </div>
+  <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} {{ profile.name | escape }}</span><span>Built with Jekyll · Hosted on GitHub Pages</span></footer>
+</body>
+</html>

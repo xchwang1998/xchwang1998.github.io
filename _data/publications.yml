@@ -1,0 +1,34 @@
+# 新增论文：复制一个条目。year 为数字，其余内容有冒号时请加引号。
+# url 为出版社/DOI 链接；pdf 为可选的本站路径或 https 地址；不要填不存在的文件。
+- title: Benchmarking of laser-based simultaneous localization and mapping methods in forest environments
+  authors: "Wang, X., Liang, X., Campos, M., Zhang, J., Wang, Y."
+  year: 2024
+  venue: "IEEE Transactions on Geoscience and Remote Sensing, 62, 1–21"
+  url: https://doi.org/10.1109/TGRS.2024.3439438
+- title: A Comparison Study of Low-Cost Personal Laser Scanning Systems for Forest Plot-Level Inventories
+  authors: "Wang, X., Yao, H., Ma, Y., Liang, X."
+  year: 2023
+  venue: "International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLVIII-1/W2-2023, 1809–1815"
+  url: https://doi.org/10.5194/isprs-archives-XLVIII-1-W2-2023-1809-2023
+  pdf: https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1809/2023/isprs-archives-XLVIII-1-W2-2023-1809-2023.pdf
+- title: A Benchmark of Absolute and Relative Positioning Solutions in GNSS Denied Environments
+  authors: "Yao, H., Liang, X., Chen, R., Wang, X., Qi, H., Chen, L., Wang, Y."
+  year: 2023
+  venue: IEEE Internet of Things Journal
+  url: https://ieeexplore.ieee.org/abstract/document/10197620
+- title: Tightly Coupled Indoor Positioning Using UWB/mmWave Radar/IMU
+  authors: "Yao, H., Wang, X., Qi, H., Liang, X."
+  year: 2022
+  venue: "International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 46, 323–329"
+  pdf: /docs/Tightly_Coupled_Indoor_Positioning_Using_Uwb_mmwave_Radar_imu.pdf
+- title: Point Cloud Classification and Accuracy Analysis Based on Feature Fusion
+  authors: "Wang, X., Ma, Hongchao, Zhang, L., Cai, Z., Ma, Haichi"
+  year: 2021
+  venue: "Journal of Geodesy and Geoinformation Science, 4, 38–48"
+  url: https://doi.org/10.11947/j.JGGS.2021.0304
+  pdf: /docs/Point_Cloud_Classification_and_Accuracy_Analysis_Based_on_Feature_Fusion.pdf
+- title: 机载LiDAR波形特征提取及其在地物分类中的应用
+  authors: "王晓晨, 张良, 元佳林, 蔡湛, 马洪超"
+  year: 2020
+  venue: 第六届全国激光雷达大会，中国地质大学（北京）
+  pdf: /docs/6th_lidar_conference.pdf
