@@ -1,19 +1,26 @@
 # 日常更新只需修改本文件和 publications.yml；缩进使用空格。
 name: Xiaochen Wang
 name_zh: 王晓晨
-role: Ph.D. Student in Photogrammetry and Remote Sensing
-affiliation: Wuhan University
-affiliation_url: https://www.whu.edu.cn/
-location: Wuhan, China
+role: Lecturer
+department: School of Remote Sensing Science and Technology
+affiliation: Aerospace Information Technology University
+affiliation_url: https://www.aitech.edu.cn/
+location: Jinan, China
 photo: /images/android-chrome-512x512.png
-email: xchwang@whu.edu.cn
+email: xiaochen.wang@aitech.edu.cn
+alternate_email: xchwang@whu.edu.cn
 # 如需显示简历，填入已检查过的 PDF 路径，例如 /docs/my_cv.pdf。
 cv: ""
 intro: >-
-  I am a Ph.D. student in photogrammetry and remote sensing at Wuhan University.
-  My research focuses on airborne LiDAR data processing and 3D LiDAR simultaneous
-  localization and mapping (SLAM), with interests in forest environments and point cloud analysis.
+  I am a Lecturer in the School of Remote Sensing Science and Technology at Aerospace
+  Information Technology University (AITech), Jinan, China. I received my Ph.D. in
+  Photogrammetry and Remote Sensing from Wuhan University in December 2025.
+  My research focuses on LiDAR-based simultaneous localization and mapping (SLAM),
+  automated point cloud registration, and 3D forest monitoring, including individual
+  tree segmentation and forest structure estimation.
 links:
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/author/367977080564574
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=SZF8-JIAAAAJ
   - label: ORCID
@@ -25,14 +32,20 @@ links:
 research:
   - title: LiDAR SLAM
     description: 3D simultaneous localization and mapping, including evaluation in forest environments.
-  - title: Point Cloud Analysis
-    description: Airborne LiDAR data processing, waveform features, and point cloud classification.
-  - title: Localization & Calibration
-    description: Place recognition and extrinsic calibration.
-  - title: Machine Learning
-    description: Learning methods for remote sensing and 3D data analysis.
+  - title: Point Cloud Registration
+    description: Automated multi-scan and cross-platform registration of forest point clouds.
+  - title: Forest Structure Estimation
+    description: Individual tree segmentation and tree attribute estimation from 3D observations.
+  - title: LiDAR Data Analysis
+    description: Airborne and terrestrial laser scanning, point cloud classification, and forest remote sensing.
 # 日期加引号；按从新到旧排列。不会自动推断或生成新的经历。
 news:
+  - date: "2026"
+    text: "Our paper TreeSemantic: An Online Module for Individual Tree Segmentation and Attributes Estimation is published in IEEE TGRS."
+  - date: "2026.02"
+    text: Our work on automated forest TLS multi-scan registration using hash tables appears in ISPRS Journal of Photogrammetry and Remote Sensing, Volume 232.
+  - date: "2025.12"
+    text: Received my Ph.D. in Photogrammetry and Remote Sensing from Wuhan University.
   - date: "2024.09"
     text: A paper on benchmarking laser-based SLAM in forest environments was accepted by IEEE TGRS.
   - date: "2023.09"
@@ -44,7 +57,8 @@ news:
   - date: "2022.05"
     text: A co-authored paper was accepted by the International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.
 education:
-  - period: "2022.09 – present"
+  - period: "2022.09 – 2025.12"
+    degree: Ph.D. in Photogrammetry and Remote Sensing
     institution: Wuhan University
     department: State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing
     location: Wuhan, China

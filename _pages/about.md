@@ -50,7 +50,7 @@ redirect_from:
 <section id="education" class="section">
   <span id="-educations" class="legacy-anchor" aria-hidden="true"></span>
   <div class="section-heading"><h2>Education</h2><span class="section-number">03</span></div>
-  <ul class="education-list">{% for item in profile.education %}<li><p class="date">{{ item.period | escape }}</p><div><h3>{{ item.institution | escape }}</h3><p>{{ item.department | escape }}</p><p class="muted">{{ item.location | escape }}</p></div></li>{% endfor %}</ul>
+  <ul class="education-list">{% for item in profile.education %}<li><p class="date">{{ item.period | escape }}</p><div><h3>{{ item.institution | escape }}</h3>{% if item.degree and item.degree != '' %}<p>{{ item.degree | escape }}</p>{% endif %}<p>{{ item.department | escape }}</p><p class="muted">{{ item.location | escape }}</p></div></li>{% endfor %}</ul>
 </section>
 {% endif %}
 {% if profile.awards.size > 0 %}
@@ -67,4 +67,4 @@ redirect_from:
   <ul class="dated-list">{% for item in profile.talks %}<li><span class="date">{{ item.date | escape }}</span><span>{{ item.text | escape }}</span></li>{% endfor %}</ul>
 </section>
 {% endif %}
-<section id="contact" class="section contact"><h2>Contact</h2><p>For research correspondence, please contact me by email.</p><a href="mailto:{{ profile.email | escape }}">{{ profile.email | escape }} <span aria-hidden="true">↗</span></a></section>
+<section id="contact" class="section contact"><h2>Contact</h2><p>For research correspondence, please contact me by email.</p><a href="mailto:{{ profile.email | escape }}">{{ profile.email | escape }} <span aria-hidden="true">↗</span></a>{% if profile.alternate_email and profile.alternate_email != '' %}<p class="alternate-contact">Additional email: <a href="mailto:{{ profile.alternate_email | escape }}">{{ profile.alternate_email | escape }}</a></p>{% endif %}</section>
