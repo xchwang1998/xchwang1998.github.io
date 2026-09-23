@@ -65,3 +65,19 @@ GitHub Pages 的发布来源沿用仓库 Settings → Pages 的现有设置。�
 ## 7. 引用数爬虫
 
 旧的 google_scholar_crawler 源码作为历史参考保留，首页已与之解耦。原自动抓取工作流因依赖不兼容而持续失败，且新版首页不使用其输出，现已移除，避免每日或发布时产生无效失败通知。若未来需要引用数功能，应重新验证抓取依赖、学术账号及数据准确性后再启用；不要直接恢复旧工作流。
+
+
+## 8. 奖励与社区服务
+
+在 homepage.yml 的 awards 列表中维护获奖记录；service 列表用于期刊审稿、会议志愿服务、开源项目和技术博客。条目按数据文件顺序显示。
+awards 支持 date、text；service 支持 category、title、text。两种条目都可以添加可选 links 列表：
+
+```yaml
+    links:
+      - label: Code
+        url: https://github.com/YOUR-ACCOUNT/YOUR-REPOSITORY
+```
+
+不需要链接时删掉 links，或设为 []。service: [] 会隐藏服务栏目和导航。
+审稿服务采用期刊名称和职责，不展示随年份变化的影响因子、分区或宣传性排名。
+博客文章、访问和关注数量使用本人提供的概数（2026 年 9 月更新），以后有新数据可直接修改 text。

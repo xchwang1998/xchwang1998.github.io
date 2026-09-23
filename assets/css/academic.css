@@ -6,3 +6,10 @@
 @media print{.site-header,.publication-search,.skip-link,.text-link{display:none}.site-grid{display:block;padding:0}.profile{position:static;margin-bottom:25px}.portrait{width:100px;height:100px;float:right}.profile-links{display:flex;gap:20px}.section{break-inside:avoid;margin-bottom:20px;padding-bottom:20px}.publication{break-inside:avoid}body{font-size:11pt}.site-footer{margin:0}.publication[hidden]{display:grid!important}}
 
 .email{display:block}.alternate-email{margin-top:4px}.alternate-contact{margin-top:12px;margin-bottom:0}
+
+.entry-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:8px;font-size:.78rem;font-weight:700}
+.service-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:26px 30px}
+.service-list li{border-left:2px solid #9dbfb7;padding-left:17px;min-width:0}
+.service-list p{font-size:.88rem;margin:0;color:var(--muted)}
+.service-list .service-category{font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);margin-bottom:7px}
+@media(max-width:680px){.service-list{grid-template-columns:1fr}}
