@@ -33,9 +33,10 @@
     <aside class="profile" aria-label="Researcher profile">
       {% if profile.photo and profile.photo != '' %}<img class="portrait" src="{{ profile.photo | relative_url }}" alt="{{ profile.name | escape }}" width="176" height="176">{% endif %}
       <p class="profile-name">{{ profile.name | escape }} <span lang="zh">{{ profile.name_zh | escape }}</span></p>
-      <p class="role">{{ profile.role | escape }}</p>
+      <p class="role">{{ profile.role | escape }}{% if profile.department and profile.department != '' %}<br>{{ profile.department | escape }}{% endif %}</p>
       <p><a href="{{ profile.affiliation_url | escape }}">{{ profile.affiliation | escape }}</a><br><span class="muted">{{ profile.location | escape }}</span></p>
       <a class="email" href="mailto:{{ profile.email | escape }}">{{ profile.email | escape }}</a>
+      {% if profile.alternate_email and profile.alternate_email != '' %}<a class="email alternate-email" href="mailto:{{ profile.alternate_email | escape }}">{{ profile.alternate_email | escape }}</a>{% endif %}
       <ul class="profile-links">
         {% for link in profile.links %}<li><a href="{{ link.url | escape }}">{{ link.label | escape }} <span aria-hidden="true">↗</span></a></li>{% endfor %}
       </ul>

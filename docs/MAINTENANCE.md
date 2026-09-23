@@ -31,11 +31,11 @@ news、education、awards、talks 都按文件中的顺序显示，请将新条�
 隐藏某个可选栏目时，将对应列表改为 `news: []`、`research: []` 等。清空论文时 publications.yml 填 `[]`。清空后对应导航也会隐藏。
 
 在 homepage.yml 中设置 `cv: /docs/my_cv.pdf` 可显示简历按钮。当前默认不展示：仓库中的历史简历需要本人确认仍然有效。
-身份和教育时间沿用旧主页；毕业、入职后请同步修改 role、intro 和 education。当前动态截至 2024 年，未补造后续经历。
+身份与教育时间已更新至 2026-09-23：空天信息大学讲师，2025 年 12 月获武汉大学博士学位。以后变更任职信息时同步修改 role、department、affiliation、intro、location 和 education。教育条目可用 degree 显示学位。
 
 ## 4. 替换头像与学术链接
 
-上传图片到 images/，再改 photo。建议清晰正方形肖像。姓名、邮箱和学术平台地址均在 homepage.yml。
+上传图片到 images/，再改 photo。建议清晰正方形肖像。姓名、邮箱和学术平台地址均在 homepage.yml。email 是主要邮箱；alternate_email 是可选备用邮箱，留空可隐藏。两者均在侧栏和 Contact 栏目中显示。
 Google Scholar 地址只保留一个 user 参数；ORCID 使用 https://orcid.org/编号 的公共主页地址。
 本次移除了未经验证的引用数、错误示例 Scholar ID 和论文总数声明。不要把模板中的示例数字用作真实学术指标。
 

@@ -9,7 +9,7 @@
 url: "https://xchwang1998.github.io"
 baseurl: ""
 title                    : "Xiaochen Wang"
-description              : "Academic homepage of Xiaochen Wang, Wuhan University. Research in LiDAR SLAM, remote sensing, and point cloud analysis."
+description              : "Academic homepage of Xiaochen Wang, Lecturer at Aerospace Information Technology University. Research in LiDAR SLAM, remote sensing, and point cloud analysis."
 repository               : "xchwang1998/xchwang1998.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -25,12 +25,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiaochen Wang"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Wuhan University"
-  location         : "Wuhan, China"
+  bio              : "Lecturer, Aerospace Information Technology University"
+  location         : "Jinan, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=SZF8-JIAAAAJ"
-  email            : "xchwang@whu.edu.cn"
+  email            : "xiaochen.wang@aitech.edu.cn"
   researchgate     : "https://www.researchgate.net/profile/Xiaochen_Wang18"
   uri              :
   bitbucket        :

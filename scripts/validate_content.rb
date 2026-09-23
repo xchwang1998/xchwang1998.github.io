@@ -27,7 +27,11 @@ end
 
 profile = read_yaml("_data/homepage.yml")
 required(profile, %w[name role affiliation affiliation_url email intro], "profile")
-raise "profile: invalid email" unless profile["email"].match?(/\A[^\s@]+@[^\s@]+\.[^\s@]+\z/)
+%w[email alternate_email].each do |key|
+  value = profile[key]
+  next if value.nil? || value == ""
+  raise "profile: invalid #{key}" unless value.match?(/\A[^\s@]+@[^\s@]+\.[^\s@]+\z/)
+end
 %w[photo cv affiliation_url].each { |key| link(profile[key], key) }
 schemas = {
   "links" => %w[label url], "research" => %w[title description],

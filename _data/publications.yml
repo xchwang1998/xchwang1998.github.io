@@ -1,5 +1,33 @@
 # 新增论文：复制一个条目。year 为数字，其余内容有冒号时请加引号。
 # url 为出版社/DOI 链接；pdf 为可选的本站路径或 https 地址；不要填不存在的文件。
+# 新增与更新条目以出版社提交到 Crossref 的书目信息为准（核对于 2026-09-23）。
+# 年份采用正式卷期年份；在线发表年份可能较早。
+- title: "TreeSemantic: An Online Module for Individual Tree Segmentation and Attributes Estimation"
+  authors: "Xiaochen Wang, Xinlian Liang"
+  year: 2026
+  venue: "IEEE Transactions on Geoscience and Remote Sensing, 64, Article 4416120"
+  url: https://doi.org/10.1109/TGRS.2026.3727340
+- title: "Automated TLS multi-scan registration in forest environments: A novel solution based on hash table"
+  authors: "Xiaochen Wang, Xinlian Liang"
+  year: 2026
+  venue: "ISPRS Journal of Photogrammetry and Remote Sensing, 232, 280–304"
+  url: https://doi.org/10.1016/j.isprsjprs.2025.11.021
+  code: https://github.com/MSpace-WHU/Forest_TLS_Reg
+- title: A novel method for ULS-TLS forest point cloud registration based on height context descriptor
+  authors: "Xusong Dai, Hanwen Qi, Xiaochen Wang, Yaozhan Xu, Qinghu Jiang, Qingjun Zhang, Xu Wang, Jianchang Chen, Guangzu Liu, Xinlian Liang"
+  year: 2025
+  venue: "Forest Ecosystems, 14, Article 100369"
+  url: https://doi.org/10.1016/j.fecs.2025.100369
+- title: Automated Registration of Terrestrial Point Clouds Through Ground Overlapping Searching in Forests
+  authors: "Xusong Dai, Xinlian Liang, Hanwen Qi, Jianchang Chen, Xu Wang, Xiaochen Wang, Qingjun Zhang, Jian Zhang"
+  year: 2024
+  venue: "IEEE Transactions on Geoscience and Remote Sensing, 62, 1–13"
+  url: https://doi.org/10.1109/TGRS.2024.3471792
+- title: Forest in situ observations through a fully automated under-canopy unmanned aerial vehicle
+  authors: "Xinlian Liang, Haiyun Yao, Hanwen Qi, Xiaochen Wang"
+  year: 2024
+  venue: "Geo-Spatial Information Science, 27(4), 983–999"
+  url: https://doi.org/10.1080/10095020.2024.2322765
 - title: Benchmarking of laser-based simultaneous localization and mapping methods in forest environments
   authors: "Wang, X., Liang, X., Campos, M., Zhang, J., Wang, Y."
   year: 2024
@@ -13,9 +41,9 @@
   pdf: https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1809/2023/isprs-archives-XLVIII-1-W2-2023-1809-2023.pdf
 - title: A Benchmark of Absolute and Relative Positioning Solutions in GNSS Denied Environments
   authors: "Yao, H., Liang, X., Chen, R., Wang, X., Qi, H., Chen, L., Wang, Y."
-  year: 2023
-  venue: IEEE Internet of Things Journal
-  url: https://ieeexplore.ieee.org/abstract/document/10197620
+  year: 2024
+  venue: "IEEE Internet of Things Journal, 11(3), 4243–4273"
+  url: https://doi.org/10.1109/JIOT.2023.3300018
 - title: Tightly Coupled Indoor Positioning Using UWB/mmWave Radar/IMU
   authors: "Yao, H., Wang, X., Qi, H., Liang, X."
   year: 2022
