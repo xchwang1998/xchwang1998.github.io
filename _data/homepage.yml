@@ -1,0 +1,68 @@
+# 日常更新只需修改本文件和 publications.yml；缩进使用空格。
+name: Xiaochen Wang
+name_zh: 王晓晨
+role: Ph.D. Student in Photogrammetry and Remote Sensing
+affiliation: Wuhan University
+affiliation_url: https://www.whu.edu.cn/
+location: Wuhan, China
+photo: /images/android-chrome-512x512.png
+email: xchwang@whu.edu.cn
+# 如需显示简历，填入已检查过的 PDF 路径，例如 /docs/my_cv.pdf。
+cv: ""
+intro: >-
+  I am a Ph.D. student in photogrammetry and remote sensing at Wuhan University.
+  My research focuses on airborne LiDAR data processing and 3D LiDAR simultaneous
+  localization and mapping (SLAM), with interests in forest environments and point cloud analysis.
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=SZF8-JIAAAAJ
+  - label: ORCID
+    url: https://orcid.org/0000-0001-9467-6797
+  - label: GitHub
+    url: https://github.com/xchwang1998
+  - label: ResearchGate
+    url: https://www.researchgate.net/profile/Xiaochen_Wang18
+research:
+  - title: LiDAR SLAM
+    description: 3D simultaneous localization and mapping, including evaluation in forest environments.
+  - title: Point Cloud Analysis
+    description: Airborne LiDAR data processing, waveform features, and point cloud classification.
+  - title: Localization & Calibration
+    description: Place recognition and extrinsic calibration.
+  - title: Machine Learning
+    description: Learning methods for remote sensing and 3D data analysis.
+# 日期加引号；按从新到旧排列。不会自动推断或生成新的经历。
+news:
+  - date: "2024.09"
+    text: A paper on benchmarking laser-based SLAM in forest environments was accepted by IEEE TGRS.
+  - date: "2023.09"
+    text: Presented work on personal laser scanning at ISPRS Geospatial Week 2023 in Cairo, Egypt.
+  - date: "2023.07"
+    text: A co-authored paper was accepted by the IEEE Internet of Things Journal.
+  - date: "2022.09"
+    text: Started doctoral studies at the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University.
+  - date: "2022.05"
+    text: A co-authored paper was accepted by the International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.
+education:
+  - period: "2022.09 – present"
+    institution: Wuhan University
+    department: State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing
+    location: Wuhan, China
+  - period: "2019.09 – 2022.06"
+    institution: Wuhan University
+    department: School of Remote Sensing and Information Engineering
+    location: Wuhan, China
+  - period: "2015.09 – 2019.06"
+    institution: Northeastern University
+    department: School of Resources and Civil Engineering
+    location: Shenyang, China
+awards:
+  - date: "2023.09"
+    text: Best Presentation Award, Smart Forests Workshop, ISPRS Geospatial Week 2023.
+  - date: "2018.10"
+    text: 第五届全国高校大学生测绘技能大赛特等奖。
+  - date: "2018.05"
+    text: Honorable Mention, Mathematical Contest in Modeling (MCM).
+talks:
+  - date: "2021.04"
+    text: Invited lecture for students at the School of Resources Environment Science and Technology, Hubei University of Science and Technology.
