@@ -19,16 +19,14 @@ intro: >-
   automated point cloud registration, and 3D forest monitoring, including individual
   tree segmentation and forest structure estimation.
 links:
-  - label: IEEE Xplore
-    url: https://ieeexplore.ieee.org/author/367977080564574
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=SZF8-JIAAAAJ
   - label: ORCID
     url: https://orcid.org/0000-0001-9467-6797
-  - label: GitHub
-    url: https://github.com/xchwang1998
   - label: ResearchGate
     url: https://www.researchgate.net/profile/Xiaochen_Wang18
+  - label: IEEE Xplore
+    url: https://ieeexplore.ieee.org/author/367977080564574
 research:
   - title: LiDAR SLAM
     description: 3D simultaneous localization and mapping, including evaluation in forest environments.
@@ -90,9 +88,7 @@ awards:
     text: 第五届全国高校大学生测绘技能大赛特等奖。
   - date: "2018.05"
     text: Honorable Mention, Mathematical Contest in Modeling (MCM).
-talks:
-  - date: "2021.04"
-    text: Invited lecture for students at the School of Resources Environment Science and Technology, Hubei University of Science and Technology.
+talks: []
 
 # 学术服务与技术社区贡献；可选 links 列表用于添加相关页面。
 # CSDN 数据核对于公开主页，2026-09-23；博客访问量不含社区访问量。
@@ -106,12 +102,6 @@ service:
   - category: Peer Review
     title: ROBOT (机器人)
     text: Journal reviewer.
-  - category: Open Source
-    title: Research Software on GitHub
-    text: Open-source code for my work is available on GitHub.
-    links:
-      - label: GitHub projects
-        url: https://github.com/xchwang1998
   - category: Technical Writing
     title: CSDN Blog
     text: "144 original technical articles, 603,613 blog views, and 16,128 followers (as of September 2026)."
