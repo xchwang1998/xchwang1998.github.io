@@ -39,7 +39,7 @@ research:
 # 日期加引号；按从新到旧排列。不会自动推断或生成新的经历。
 news:
   - date: "2026.10"
-    text: 'My doctoral dissertation “面向林业环境的激光SLAM 与单木结构参数估计” received the 2026年全国激光雷达优秀博士学位论文奖.'
+    text: 'My doctoral dissertation, “Research on LiDAR SLAM and Key Structural Parameter Extraction of Individual Trees in Forest Environments”, received the 2026 National Outstanding Doctoral Dissertation Award in LiDAR.'
   - date: "2026.09"
     text: "Our paper TreeSemantic: An Online Module for Individual Tree Segmentation and Attributes Estimation was published in IEEE TGRS."
   - date: "2026.02"
