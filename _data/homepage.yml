@@ -38,22 +38,24 @@ research:
     description: Airborne and terrestrial laser scanning, point cloud classification, and forest remote sensing.
 # 日期加引号；按从新到旧排列。不会自动推断或生成新的经历。
 news:
-  - date: "2026"
-    text: "Our paper TreeSemantic: An Online Module for Individual Tree Segmentation and Attributes Estimation is published in IEEE TGRS."
+  - date: "2026.10"
+    text: 'My doctoral dissertation “面向林业环境的激光SLAM 与单木结构参数估计” received the 2026年全国激光雷达优秀博士学位论文奖.'
+  - date: "2026.09"
+    text: "Our paper TreeSemantic: An Online Module for Individual Tree Segmentation and Attributes Estimation was published in IEEE TGRS."
   - date: "2026.02"
-    text: Our work on automated forest TLS multi-scan registration using hash tables appears in ISPRS Journal of Photogrammetry and Remote Sensing, Volume 232.
+    text: Our paper on hash-table-based forest TLS registration was published in ISPRS Journal of Photogrammetry and Remote Sensing.
   - date: "2025.12"
     text: Received my Ph.D. in Photogrammetry and Remote Sensing from Wuhan University.
   - date: "2024.09"
-    text: A paper on benchmarking laser-based SLAM in forest environments was accepted by IEEE TGRS.
+    text: Our paper on benchmarking laser-based SLAM in forest environments was accepted by IEEE TGRS.
   - date: "2023.09"
     text: Presented work on personal laser scanning at ISPRS Geospatial Week 2023 in Cairo, Egypt.
   - date: "2023.07"
-    text: A co-authored paper was accepted by the IEEE Internet of Things Journal.
+    text: Our co-authored paper was accepted by IEEE Internet of Things Journal.
   - date: "2022.09"
-    text: Started doctoral studies at the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University.
+    text: Started my Ph.D. at Wuhan University.
   - date: "2022.05"
-    text: A co-authored paper was accepted by the International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.
+    text: Our co-authored paper was accepted by the International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.
 education:
   - period: "2022.09 – 2025.12"
     degree: Ph.D. in Photogrammetry and Remote Sensing
