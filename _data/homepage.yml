@@ -6,7 +6,9 @@ department: School of Remote Sensing Science and Technology
 affiliation: Aerospace Information Technology University
 affiliation_url: https://www.aitech.edu.cn/
 location: Jinan, China
-photo: /images/android-chrome-512x512.png
+photo: /images/portrait-528.jpg
+photo_width: 528
+photo_height: 768
 email: xiaochen.wang@aitech.edu.cn
 alternate_email: xchwang@whu.edu.cn
 # 如需显示简历，填入已检查过的 PDF 路径，例如 /docs/my_cv.pdf。

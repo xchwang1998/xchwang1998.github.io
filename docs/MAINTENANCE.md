@@ -35,7 +35,7 @@ news、education、awards、talks 都按文件中的顺序显示，请将新条�
 
 ## 4. 替换头像与学术链接
 
-上传图片到 images/，再改 photo。建议清晰正方形肖像。姓名、邮箱和学术平台地址均在 homepage.yml。email 是主要邮箱；alternate_email 是可选备用邮箱，留空可隐藏。两者均在侧栏和 Contact 栏目中显示。
+上传图片到 images/，再改 photo。建议使用适合网页的压缩照片，并保持原始比例；photo_width、photo_height 填图片实际像素宽高，浏览器会预留正确空间，减少加载时的页面跳动。当前首页使用 528×768 的 portrait-528.jpg（约 44 KB），原始照片 android-chrome-512x512.png 保留在 images/ 中。姓名、邮箱和学术平台地址均在 homepage.yml。email 是主要邮箱；alternate_email 是可选备用邮箱，留空可隐藏。两者均在侧栏和 Contact 栏目中显示。
 Google Scholar 地址只保留一个 user 参数；ORCID 使用 https://orcid.org/编号 的公共主页地址。
 本次移除了未经验证的引用数、错误示例 Scholar ID 和论文总数声明。不要把模板中的示例数字用作真实学术指标。
 
