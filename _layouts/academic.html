@@ -33,7 +33,7 @@
   </header>
   <div class="site-grid">
     <aside class="profile" aria-label="Researcher profile">
-      {% if profile.photo and profile.photo != '' %}<img class="portrait" src="{{ profile.photo | relative_url }}" alt="{{ profile.name | escape }}" width="176" height="176">{% endif %}
+      {% if profile.photo and profile.photo != '' %}<img class="portrait" src="{{ profile.photo | relative_url }}" alt="{{ profile.name | escape }}"{% if profile.photo_width and profile.photo_height %} width="{{ profile.photo_width }}" height="{{ profile.photo_height }}"{% endif %}>{% endif %}
       <p class="profile-name">{{ profile.name | escape }} <span lang="zh">{{ profile.name_zh | escape }}</span></p>
       <p class="role">{{ profile.role | escape }}{% if profile.department and profile.department != '' %}<br>{{ profile.department | escape }}{% endif %}</p>
       <p><a href="{{ profile.affiliation_url | escape }}">{{ profile.affiliation | escape }}</a><br><span class="muted">{{ profile.location | escape }}</span></p>

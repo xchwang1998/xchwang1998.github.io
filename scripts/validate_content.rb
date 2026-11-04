@@ -33,6 +33,11 @@ required(profile, %w[name role affiliation affiliation_url email intro], "profil
   raise "profile: invalid #{key}" unless value.match?(/\A[^\s@]+@[^\s@]+\.[^\s@]+\z/)
 end
 %w[photo cv affiliation_url].each { |key| link(profile[key], key) }
+if profile.key?("photo_width") || profile.key?("photo_height")
+  %w[photo_width photo_height].each do |key|
+    raise "profile: #{key} must be a positive integer" unless profile[key].is_a?(Integer) && profile[key] > 0
+  end
+end
 schemas = {
   "links" => %w[label url], "research" => %w[title description],
   "news" => %w[date text], "education" => %w[period institution department location],
